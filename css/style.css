@@ -1,0 +1,300 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+h1 {
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 40px;
+  font-size: 30px;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #717C7E;
+}
+
+a:hover {
+  color: #C1C6C7;
+}
+
+p {
+  text-align: center;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.header {
+  background: #fff;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 999;
+}
+.nav {
+  text-align: center;
+  background-color: #fff;
+/*  position: fixed;*/
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+/*  margin: 0 auto;*/
+}
+
+.nav ul {
+  list-style: none;
+  width: 100%;
+}
+
+.nav li {
+  display: inline-block;
+  margin: 10px 35px 10px 35px;
+}
+
+.cover1 {
+  text-align: center;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/49/40/24/4940247db379d39c98a7490575e36922.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  padding: 60px 0;
+}
+
+.avatar {
+  display: block;
+  margin: 100px auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-image: url('https://s-media-cache-ak0.pinimg.com/originals/ea/4e/ca/ea4ecaa8d74246dd4d8cda804aa7b085.jpg');
+  background-position: center 0;
+}
+
+.cover1 h1 {
+  padding-top: 60px;
+  font-family: 'Montserrat', sans-serif;
+  color: #859DB1;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.cover1 h5 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.cover1 p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.cover1 hr {
+  border: solid #717C7E;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+}
+
+.cover1 a {
+  display: inline-block;
+  background-color: rgba(0,0,0,.1);
+  line-height: 1.5em;
+  padding: .2em 2em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9em;
+  margin-top: 1em;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #717C7E;
+  margin-bottom: 60px;
+}
+
+.cover1 a:hover {
+  color: #fff;
+}
+
+.cover2 p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+  margin: 0;
+}
+
+.cover2-text {
+  font-size: 23px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.cover2 ul {
+  list-style: none;
+}
+
+.cover2 li {
+  margin-bottom: 30px;
+}
+
+.cover2-skills {
+  margin-right: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.back {
+  position: absolute;
+  background-color: #DFE2E3;
+  height: 15px;
+  width: 100%;
+}
+
+.front {
+  position: absolute;
+  background-color: #354A56;
+  height: 15px;
+}
+
+.speech {
+  width: 84%;
+}
+
+.think {
+  width: 99%;
+}
+
+.resp {
+  width: 86%;
+}
+
+.learn {
+  width: 98%;
+}
+
+.commun {
+  width: 93%;
+}
+
+.perf {
+  width: 94%;
+}
+
+.mult {
+  width: 87%;
+}
+
+.cover3 {
+  margin: 70px auto;
+  display: inline-block;
+  height: 450px;
+  width: 100%;
+}
+
+.pic {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 25px auto;
+}
+
+.education {
+  background-image: url(https://cdn2.iconfinder.com/data/icons/bitsies/128/Book-64.png);
+}
+
+.cover3 h5 {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.cover3 p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+
+.cover4 li {
+  display: inline-block;
+}
+
+.cover4 p {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  margin-bottom: 50px;
+}
+
+.block{
+  display: block;
+  margin: 15px auto;
+}
+
+.name {
+  padding: 15px;
+  border: 1px solid #d2d6d7;
+  border-radius: 15px;
+  line-height: 1.5em;
+  color: #333;
+  font-size: 15px;
+  width: 60%;
+  z-index: 0;
+  height: 30px;
+}
+
+.text {
+  padding: 15px;
+  border: 1px solid #d2d6d7;
+  border-radius: 15px;
+  line-height: 1.5em;
+  color: #333;
+  font-size: 15px;
+  width: 60%;
+  z-index: 0;
+}
+
+.elem-button {
+  display: block;
+  margin: 35px auto;
+  padding: 5px 55px;
+  border-radius: 15px;
+}
+
+.footer p {
+  margin-bottom: 15px;
+}
+
+.footer ul {
+  position: relative;
+  left: 50%;
+  margin-left: -92px;
+}
+
+.logo {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+
+.twitter {
+  background-image: url(https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_twitter-32.png);
+}
+.linkedin {
+  background-image: url(https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/online_social_media_linked_in-32.png);
+}
+.skype {
+  background-image: url(https://cdn2.iconfinder.com/data/icons/black-white-social-media/32/skype_online_social_media-32.png)
+}
