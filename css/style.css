@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+
 h1 {
   text-align: center;
 }
@@ -132,7 +136,7 @@ p {
 }
 
 .cover2-text {
-  font-size: 23px;
+  font-size: 26px;
   padding-bottom: 50px;
   padding-top: 30px;
 }
@@ -151,17 +155,20 @@ p {
   position: relative;
 }
 
-.back {
+.cover2-skills_back {
   position: absolute;
   background-color: #DFE2E3;
   height: 15px;
-  width: 100%;
+  width: 90%;
+  padding: auto 25px;
+
 }
 
-.front {
+.cover2-skills_front {
   position: absolute;
   background-color: #354A56;
   height: 15px;
+  padding: auto 25px;
 }
 
 .speech {
@@ -169,23 +176,23 @@ p {
 }
 
 .think {
-  width: 99%;
+  width: 79%;
 }
 
 .resp {
-  width: 86%;
+  width: 76%;
 }
 
 .learn {
-  width: 98%;
+  width: 88%;
 }
 
 .commun {
-  width: 93%;
+  width: 83%;
 }
 
 .perf {
-  width: 94%;
+  width: 84%;
 }
 
 .mult {
@@ -235,41 +242,41 @@ p {
 }
 
 .contact-form {
-  margin-bottom: 50px;
+  margin-bottom: 90px;
 }
 
-.block{
+.cover4-block{
   display: block;
   margin: 15px auto;
 }
 
-.name {
+.cover4-form_field {
   padding: 15px;
   border: 1px solid #d2d6d7;
   border-radius: 15px;
   line-height: 1.5em;
   color: #333;
   font-size: 15px;
-  width: 60%;
+  width: 40%;
   z-index: 0;
   height: 30px;
 }
 
-.text {
+.cover4-form_body {
   padding: 15px;
   border: 1px solid #d2d6d7;
   border-radius: 15px;
   line-height: 1.5em;
   color: #333;
   font-size: 15px;
-  width: 60%;
+  width: 40%;
   z-index: 0;
 }
 
 .elem-button {
   display: block;
   margin: 35px auto;
-  padding: 5px 55px;
+  padding: 5px 65px;
   border-radius: 15px;
 }
 
@@ -277,10 +284,14 @@ p {
   margin-bottom: 15px;
 }
 
+.footer__social {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .footer ul {
-  position: relative;
-  left: 50%;
-  margin-left: -92px;
+  padding: 0;
 }
 
 .logo {
