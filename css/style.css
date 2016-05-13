@@ -30,15 +30,9 @@ p {
 }
 
 
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
 
-.cf:after {
-    clear: both;
-}
+
+
 
 .header {
   background: #fff;
@@ -50,10 +44,8 @@ p {
 .nav {
   text-align: center;
   background-color: #fff;
-/*  position: fixed;*/
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-/*  margin: 0 auto;*/
 }
 
 .nav ul {
@@ -66,12 +58,11 @@ p {
   margin: 10px 35px 10px 35px;
 }
 
-.cover1 {
+.home {
   text-align: center;
   background-image: url('https://s-media-cache-ak0.pinimg.com/originals/49/40/24/4940247db379d39c98a7490575e36922.png');
   background-repeat: no-repeat;
   background-position: center center;
-
   padding: 60px 0;
 }
 
@@ -85,7 +76,7 @@ p {
   background-position: center 0;
 }
 
-.cover1 h1 {
+.home h1 {
   padding-top: 60px;
   font-family: 'Montserrat', sans-serif;
   color: #859DB1;
@@ -93,25 +84,25 @@ p {
   text-transform: uppercase;
 }
 
-.cover1 h5 {
+.home h5 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   text-transform: uppercase;
 }
 
-.cover1 p {
+.home p {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
 
-.cover1 hr {
+.home hr {
   border: solid #717C7E;
   border-width: 1px 0 0;
   clear: both;
   height: 0;
 }
 
-.cover1 a {
+.home a {
   display: inline-block;
   background-color: rgba(0,0,0,.1);
   line-height: 1.5em;
@@ -125,37 +116,37 @@ p {
   margin-bottom: 60px;
 }
 
-.cover1 a:hover {
+.home a:hover {
   color: #fff;
 }
 
-.cover2 p {
+.profile p {
   font-family: 'Open Sans', sans-serif;
   text-align: left;
   margin: 0;
 }
 
-.cover2-text {
+.profile__text {
   font-size: 26px;
   padding-bottom: 50px;
   padding-top: 30px;
 }
 
-.cover2 ul {
+.profile ul {
   list-style: none;
 }
 
-.cover2 li {
+.profile li {
   margin-bottom: 30px;
 }
 
-.cover2-skills {
+.profile__skills {
   margin-right: 20px;
   text-transform: uppercase;
   position: relative;
 }
 
-.cover2-skills_back {
+.profile__skills--back {
   position: absolute;
   background-color: #DFE2E3;
   height: 15px;
@@ -164,7 +155,7 @@ p {
 
 }
 
-.cover2-skills_front {
+.profile__skills--front {
   position: absolute;
   background-color: #354A56;
   height: 15px;
@@ -199,41 +190,41 @@ p {
   width: 87%;
 }
 
-.cover3 {
+.education {
   margin: 70px auto;
   display: inline-block;
   height: 450px;
   width: 100%;
 }
 
-.pic {
+.education__logo {
   width: 64px;
   height: 64px;
   display: block;
   margin: 25px auto;
 }
 
-.education {
+.education__logo {
   background-image: url(https://cdn2.iconfinder.com/data/icons/bitsies/128/Book-64.png);
 }
 
-.cover3 h5 {
+.education h5 {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
   text-transform: uppercase;
 }
 
-.cover3 p {
+.education p {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
 
-.cover4 li {
+.contacts li {
   display: inline-block;
 }
 
-.cover4 p {
+.contacts p {
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   margin: 0;
@@ -241,39 +232,39 @@ p {
   margin-bottom: 30px;
 }
 
-.contact-form {
+.contact__form {
   margin-bottom: 90px;
 }
 
-.cover4-block{
+.contacts__block{
   display: block;
   margin: 15px auto;
 }
 
-.cover4-form_field {
+.contacts__field {
   padding: 15px;
   border: 1px solid #d2d6d7;
   border-radius: 15px;
   line-height: 1.5em;
   color: #333;
   font-size: 15px;
-  width: 40%;
+  width: 60%;
   z-index: 0;
   height: 30px;
 }
 
-.cover4-form_body {
+.contacts__field--textarea {
   padding: 15px;
   border: 1px solid #d2d6d7;
   border-radius: 15px;
   line-height: 1.5em;
   color: #333;
   font-size: 15px;
-  width: 40%;
+  width: 60%;
   z-index: 0;
 }
 
-.elem-button {
+.contacts__button {
   display: block;
   margin: 35px auto;
   padding: 5px 65px;
