@@ -29,10 +29,6 @@ a:hover {
   color: #C1C6C7;
 }
 
-p {
-  text-align: center;
-}
-
 span {
   color: #FA5C65;
 }
@@ -289,8 +285,8 @@ span {
 
 .resume__right {
   width: 45%;
-  float: right;;
-    margin-top: 190px;
+  float: right;
+  margin-top: 190px;
 }
 
 .resume__right h5,
@@ -380,12 +376,6 @@ span {
   display: block;
 }
 
-
-
-.contacts li {
-  display: inline-block;
-}
-
 .contacts p {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -445,6 +435,12 @@ span {
   border-radius: 5px;
 }
 
+input[type="text"]:focus,
+button[type="submit"]:focus,
+textarea:focus {
+  outline: none;
+}
+
 .fa-paper-plane-o {
   margin: 2px 4px;
 }
@@ -457,10 +453,19 @@ span {
   margin-bottom: 20px;
 }
 
+.footer li {
+  display: inline-block;
+}
+
 .footer__social {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 50%;
+  float: left;
+}
+
+.footer__rights {
+  width: 50%;
+  float: right;
+  text-align: right;
 }
 
 .footer ul {
